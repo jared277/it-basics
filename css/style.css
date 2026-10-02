@@ -51,6 +51,7 @@ section {
     text-align: center;
     background: var(--light);
     padding: 5rem 2rem;
+    max-width: none;
 }
 
 h2 {
@@ -117,6 +118,15 @@ nav .logo a {
     max-width: 900px;
     margin: 0 auto;
     padding: 3rem 2rem;
+}
+
+#projecten h1 {
+    margin-bottom: 0.75rem;
+}
+
+.section-intro {
+    margin-bottom: 2rem;
+    max-width: 60ch;
 }
 
 .project-detail h1 {

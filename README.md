@@ -3,19 +3,23 @@
 Een persoonlijke portfolio-website, gebouwd met HTML, CSS en JavaScript.
 Hiermee laat ik mijn projecten en vaardigheden zien en kunnen bezoekers contact opnemen.
 
-## naam
- 
- ik heet Jared Wagelaar.
+## Naam
 
- ## leerdoelen
+Ik heet Jared Wagelaar.
 
- omgaan met ai en kritish zijn over het gebruik ervan
+## Leerdoelen
 
- ## Mijn favoriete programmeertaal is pyhthon omdat het simpel is
+Omgaan met AI en kritisch zijn over het gebruik ervan.
 
+## Favoriete programmeertaal
+
+Python, omdat het simpel is.
 
 ## Inhoud
 
+- [Naam](#naam)
+- [Leerdoelen](#leerdoelen)
+- [Favoriete programmeertaal](#favoriete-programmeertaal)
 - [Over mij](#over-mij)
 - [Technieken](#technieken)
 - [Functies](#functies)
@@ -27,7 +31,13 @@ Hiermee laat ik mijn projecten en vaardigheden zien en kunnen bezoekers contact 
 ## Over mij
 
 Dit portfolio bevat een korte introductie, een sectie met projecten en een contactgedeelte.
-Vul in `index.html` je eigen naam, tekst en projecten in.
+Elk project heeft een eigen pagina in `projecten/`, gelinkt vanaf de kaart op de homepage:
+
+| Project | Pagina |
+| --- | --- |
+| MySQL database | `projecten/mysql.html` |
+| Front-end met HTML en CSS | `projecten/html.html` |
+| Python met Git | `projecten/python.html` |
 
 ## Technieken
 
@@ -65,7 +75,7 @@ week2/
 ## Aan de slag
 
 1. Open `index.html` in een browser. Er is geen server of installatie nodig.
-2. Vervang alle plekholders (`[Jouw Naam]`, projectbeschrijvingen, e-mailadres) door eigen tekst.
+2. Vul de tekst in `index.html` en in de pagina's in `projecten/` aan met je eigen verhaal.
 
 ## Aanpassen
 
@@ -81,10 +91,10 @@ week2/
 
 Mogelijke toevoegingen:
 
-- Projectpagina's met screenshots
 - Contactformulier in plaats van alleen e-mail
 - Dark mode
 - Uitklapbare projectdetails
+- Screenshots bij de projecten in `assets/images/`
 
 ## Licentie
 
