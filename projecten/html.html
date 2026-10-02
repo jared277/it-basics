@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end met HTML en CSS - Jared Wagelaar</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="../index.html">Mijn Portfolio</a></div>
+            <ul>
+                <li><a href="../index.html#over-mij">Over mij</a></li>
+                <li><a href="../index.html#projecten">Projecten</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="project-detail">
+            <a class="back-link" href="../index.html#projecten">&larr; Terug naar alle projecten</a>
+
+            <h1>Front-end met HTML en CSS</h1>
+
+            <ul class="tags">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive</li>
+            </ul>
+
+            <section>
+                <h2>Wat het project was</h2>
+                <p>
+                    Een responsive portfolio-website, gebouwd met HTML, CSS en JavaScript.
+                    De website die je nu bekijkt is het resultaat: ik heb de pagina opgebouwd uit
+                    losse secties, de vormgeving in een aparte CSS-bestand gezet en de kleuren via
+                    CSS-variabelen gedefinieerd, zodat ik ze op één plek kan aanpassen.
+                </p>
+            </section>
+
+            <section>
+                <h2>Wat ik heb geleerd</h2>
+                <ul class="learned-list">
+                    <li>Semantische HTML schrijven met header, nav, main, section en footer.</li>
+                    <li>CSS opsplitsen in een apart bestand en de stijlregels daar centraal beheren.</li>
+                    <li>Kleuren en afmetingen als CSS-variabelen defini&euml;ren en hergebruiken.</li>
+                    <li>Een responsive grid bouwen met <code>grid-template-columns</code> en <code>auto-fit</code>.</li>
+                    <li>Smooth scroll tussen secties regelen met JavaScript.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Hoe de website is opgebouwd</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <tr>
+                            <th>Bestand</th>
+                            <th>Wat erin zit</th>
+                        </tr>
+                        <tr>
+                            <td>index.html</td>
+                            <td>De inhoud van de pagina: alle teksten en secties.</td>
+                        </tr>
+                        <tr>
+                            <td>css/style.css</td>
+                            <td>Alle stijlregels, met de kleuren bovenaan als variabelen.</td>
+                        </tr>
+                        <tr>
+                            <td>js/main.js</td>
+                            <td>De interactie, zoals het scrollen naar een sectie.</td>
+                        </tr>
+                        <tr>
+                            <td>projecten/</td>
+                            <td>Deze pagina's, een per project.</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <section>
+                <a class="back-link" href="../index.html#projecten">&larr; Terug naar alle projecten</a>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 jared. Alle rechten voorbehouden.</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
